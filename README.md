@@ -31,3 +31,6 @@ ou `streamlit run app.py`. Une icône de lancement (`.desktop`) peut pointer sur
 ## Confidentialité
 `data/` (traces GPS, export Garmin), les cartes générées et les fichiers `.fit/.gpx` sont exclus de git.
 Ne jamais committer de données issues de l'export.
+
+## Licence
+MIT, voir [LICENSE](LICENSE).
