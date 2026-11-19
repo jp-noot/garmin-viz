@@ -1,0 +1,9 @@
+data/
+.venv/
+__pycache__/
+static/
+carte_test.html
+*_carte.html
+*.fit
+*.gpx
+.claude/

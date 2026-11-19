@@ -1,0 +1,7 @@
+pandas
+numpy
+fitdecode
+gpxpy
+plotly
+streamlit
+garminconnect   # optionnel : téléchargement automatique
