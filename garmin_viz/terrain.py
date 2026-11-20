@@ -125,9 +125,9 @@ map.addControl(new maplibregl.ScaleControl());
 new maplibregl.Marker({color:'#2ecc71'}).setLngLat(route[0]).addTo(map);
 new maplibregl.Marker({color:'#e74c3c'}).setLngLat(route[N-1]).addTo(map);
 
-// flèche de progression (pointe vers le haut = nord, puis tournée selon le cap)
+// point de progression
 const el = document.createElement('div');
-el.innerHTML = '<svg class="arrow" viewBox="0 0 34 34"><path d="M17 2 L30 31 L17 24 L4 31 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/></svg>';
+el.innerHTML = '<svg class="arrow" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15" fill="#fff" fill-opacity="0.3"/><circle cx="17" cy="17" r="9" fill="#fff" stroke="#111" stroke-width="3"/></svg>';
 el.style.display = 'none';
 const arrow = new maplibregl.Marker({element: el, rotationAlignment:'map', pitchAlignment:'viewport'})
   .setLngLat(route[0]).addTo(map);
